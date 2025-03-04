@@ -12,6 +12,25 @@ A lightweight web browser built with GTK and WebKit.
 - GTK 3
 - WebKit2GTK
 
+## Installing the dependencies
+### Debian/Ubuntu
+```bash
+sudo apt update
+sudo apt install build-essential libgtk-3-dev libwebkit2gtk-4.0-dev pkg-config
+```
+### Fedora/RHEL/CentOS
+```bash
+sudo dnf install gcc gtk3-devel webkit2gtk3-devel pkg-config
+```
+### Arch Linux
+```bash
+sudo pacman -S base-devel gtk3 webkit2gtk pkg-config
+```
+### OpenSUSE
+```bash
+sudo zypper install gcc gtk3-devel webkit2gtk-devel pkg-config
+```
+
 ## Building
 ```bash
 gcc -o tinyweb tinyweb.c $(pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0)
