@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define DEFAULT_URL "https://x.com"
+#define DEFAULT_URL "https://github.com/0brym/tinyweb"
 #define BOOKMARKS_FILE "tinyweb_bookmarks.txt"
 
 typedef struct {
