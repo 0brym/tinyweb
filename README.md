@@ -29,7 +29,11 @@ Run tinyweb and set the homepage at runtime:
 ```bash
 ./tinyweb -h https://example.com
 ```
+Run tinyweb with a specific URL at runtime:
+```bash
+./tinyweb https://example.com
+```
 
-The rest is pretty intuitive. Enjoy :)
+The rest is pretty intuitive UI stuff. Enjoy :)
 
 - Steve
