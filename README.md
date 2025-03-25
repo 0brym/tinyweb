@@ -1,6 +1,6 @@
 # TinyWeb Browser
 
-A lightweight web browser built with GTK and WebKit.
+A lightweight web browser built with GTK and WebKit for Linux and WSL2.
 
 ## Features
 - Simple and minimal interface
